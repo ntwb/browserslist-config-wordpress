@@ -4,6 +4,7 @@
   "description": "WordPress Browserslist Shared Config",
   "main": "index.js",
   "scripts": {
+    "release": "npmpub",
     "test": "eslint . --ignore-path .gitignore"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/ntwb/browserslist-config-wordpress#readme",
   "devDependencies": {
     "eslint": "^4.8.0",
-    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#16a13c59b0b9e02b516d6ae1da184f42adf4a391"
+    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#16a13c59b0b9e02b516d6ae1da184f42adf4a391",
+    "npmpub": "^3.1.0"
   }
 }
