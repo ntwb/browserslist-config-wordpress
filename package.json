@@ -1,0 +1,28 @@
+{
+  "name": "browserslist-config-wordpress",
+  "version": "1.0.0",
+  "description": "WordPress Browserslist Shared Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntwb/browserslist-config-wordpress.git"
+  },
+  "keywords": [
+    "browserslist",
+    "wordpress",
+    "browserslist-config"
+  ],
+  "author": "Stephen Edgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntwb/browserslist-config-wordpress/issues"
+  },
+  "homepage": "https://github.com/ntwb/browserslist-config-wordpress#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#16a13c59b0b9e02b516d6ae1da184f42adf4a391"
+  }
+}
