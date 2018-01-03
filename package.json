@@ -4,6 +4,7 @@
   "description": "WordPress Browserslist Shared Config",
   "main": "index.js",
   "scripts": {
+    "dry-release": "npmpub  --dry --verbose",
     "release": "npmpub",
     "test": "eslint . --ignore-path .gitignore"
   },
