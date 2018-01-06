@@ -5,9 +5,11 @@
 	"main": "index.js",
 	"scripts": {
 		"dry-release": "npmpub --dry --verbose",
+		"jest": "jest",
 		"lint": "eslint -c .eslintrc.json .",
 		"release": "npmpub",
-		"test": "eslint . --ignore-path .gitignore"
+		"test": "npm run lint && npm run jest",
+		"watch": "jest --watch"
 	},
 	"repository": {
 		"type": "git",
