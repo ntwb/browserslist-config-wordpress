@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dry-release": "npmpub --dry --verbose",
+		"lint": "eslint -c .eslintrc.json .",
 		"release": "npmpub",
 		"test": "eslint . --ignore-path .gitignore"
 	},
