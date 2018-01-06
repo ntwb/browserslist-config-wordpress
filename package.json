@@ -1,6 +1,6 @@
 {
 	"name": "browserslist-config-wordpress",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "WordPress Browserslist Shared Config",
 	"main": "index.js",
 	"scripts": {
