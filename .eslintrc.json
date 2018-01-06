@@ -4,9 +4,13 @@
 		"node": true
 	},
 	"extends": [
-		"plugin:wordpress/recommended"
+		"plugin:wordpress/recommended",
+		"plugin:node/recommended"
 	],
 	"parserOptions": {
 		"sourceType": "module"
-	}
+	},
+	"plugins": [
+		"node"
+	]
 }
